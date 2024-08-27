@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muhammad Hamid Portfoli,s</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="logop-removebg-preview.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Front-End Devolper</p>
+          <h1>Hi, I,m <span>Muhammad</span><br />Hamid From Pakistan</h1>
+        </div>
+      </div>
+    </div>
+    <!-- yaha tak header section complete  -->
+    <!-- yaha mpa jo image tag ha na us mien bad mien ata ha pehkla folder ka name or file name but abhii is ko skip karta hien  bad mien deltha huien is ko  -->
+    <!-- about  -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="new.png.jpg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Assumenda quibusdam facilis dolorum et laudantium! Placeat enim ab
+              consectetur quibusdam ullam quo excepturi. Vitae, rem eaque iusto
+              neque voluptatum deserunt reprehenderit!
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('Skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('Experinces')">
+                Experinces
+              </p>
+              <p class="tab-links" onclick="opentab('Education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="Skills">
+              <ul>
+                <li><span>Front-End</span><br />Devolper Web Interfaces</li>
+                <li><span>Sales Accociate</span><br />Expert Sales Agent</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Experinces">
+              <ul>
+                <li>
+                  <span>2024 - Current</span><br />Sales-Accociate at Air Saffar
+                  Pvt Limitted
+                </li>
+                <li>
+                  <span>2023 - 2024</span><br />1 Year of experince as a
+                  Sales-Accociate
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Education">
+              <ul>
+                <li>
+                  <span>2023</span><br />Currently pursuing a BSCS degree from
+                  Virtual University of Pakistan (2023-2027).
+                </li>
+                <li>
+                  <span>2021 - 2023</span><br />Completed Intermediate with ICS
+                  (Physics) from Government Khawaja Rafique Shaheed College
+                  (2021-2023).
+                </li>
+                <li>
+                  <span>2019 - 2021</span><br />CCompleted Matric with Computer
+                  Science from F.G. Abid Majeed Boys High School (2019-2021).
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- yaha tak hum na about me section complete kar lia ha  -->
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <!-- icon set karn ah bad mien  -->
+            <i class="fas fa-code"></i>
+            <h2>Web Devolper</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Accusantium itaque hic.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <!-- icon set karn ah abad mien  -->
+            <i class="fas fa-keyboard"></i>
+            <h2>Content Writing</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Accusantium itaque hic.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <!-- icon st karn aha bad mien  -->
+            <i class="fas fa-briefcase"></i>
+            <h2>Lead generatin</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Accusantium itaque hic.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+        <!-- yaha tak services finish -->
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">MyWork</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="work1.png">
+        <div class="layer">
+          <h3>Random Quote Generator</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quos sapiente deserunt non atque minus necessitatibus minim</p>
+          <a href="#"> <i class="fas fa-link"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="work2.jpeg">
+        <div class="layer">
+          <h3>tick tack toe game</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quos sapiente deserunt non atque minus necessitatibus minim</p>
+          <a href="#"> <i class="fas fa-link"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="work3.jpeg">
+        <div class="layer">
+          <h3>prymid Generator</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo quos sapiente deserunt non atque minus necessitatibus minim</p>
+          <a href="#"> <i class="fas fa-link"></i></a>
+        </div>
+      </div>
+    </div>
+  <a href="#" class="btn">See More</a>
+  </div>
+</div>
+<!-- finish portfoli section  -->
+ <div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fas fa-paper-plane"></i>muhammadhamid6430@gmail.com</p>
+        <p><i class="fa-sharp fa-solid fa-phone-volume"></i>+92-329-4590293</p>
+        <div class="social-icons">
+          <a href="https://www.instagram.com/itxhamidm/"><i class="fab fa-instagram"></i></a>
+          <a href=""><i class="fas fa-mobile-alt"></i></a>
+          <a href="https://www.linkedin.com/in/muhammad-hamid-4bb6a62b7/"><i class="fab fa-linkedin"></i></a>
+          <a href=""><i class="fab fa-github"></i></a>
+        </div>
+        <a href="my resume-1.pdf" download class="btn btn2">Dowload My Resume</a>
+      </div>
+      <div class="contact-right">
+        <form>
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="Your email" placeholder="Your email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+ </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright @hamid. made by using html css and Java Script(js)<i class="fas fa-heart"></i></p>
+      </div>
+    </div>
+    <script src="first.js"></script>
+  </body>
+</html>
